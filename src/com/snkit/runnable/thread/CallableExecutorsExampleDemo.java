@@ -33,6 +33,8 @@ public class CallableExecutorsExampleDemo {
 				System.out.println("   from exception ");
 			}
 		});
+		
+		service.shutdown();
 
 	}
 
